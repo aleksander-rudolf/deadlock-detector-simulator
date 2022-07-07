@@ -1,3 +1,8 @@
+# Deadlock Detector Simulator
+
+This program detects a deadlock in a system state with a single instance per resource type. The system state will be provided to this function as an ordered sequence of request and assignment edges. The deadlock_detect function will start by initializing an empty system state. Then, the function will process the edges one at a time. For each edge, the function will update the system state, and run a deadlock detection algorithm. If a deadlock is detected after processing an edge, the function will stop processing any more edges and return results immediately.
+
+
 To compile all code, type:
 ```
 $ make
